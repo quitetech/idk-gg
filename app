@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Sunset Cyberspace",
+    "description": "A retro runner game!",
+    "slug": "cyberspace",
+    "privacy": "public",
+    "version": "4.0.0",
+    "orientation": "landscape",
+    "scheme": "cyberspace",
+    "platforms": ["ios", "android", "web"],
+    "primaryColor": "#056ECF",
+    "icon": "./assets/icons/expo.png",
+    "splash": {
+      "image": "./assets/icons/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
+    },
+    "packagerOpts": {
+      "config": "metro.config.js"
+    },
+    "ios": {
+      "appStoreUrl": "https://itunes.apple.com/us/app/sunset-cyberspace/id1332439319?ls=1&mt=8",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.evanbacon.cyberspace",
+      "buildNumber": "0.0.1",
+      "icon": "./assets/icons/ios.png",
+      "splash": {
+        "image": "./assets/icons/splash.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#000000",
+        "tabletImage": "./assets/icons/splash.png"
+      },
+      "infoPlist": {
+        "CFBundleDisplayName": "Cyberspace"
+      }
+    },
+    "android": {
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.evanbacon.cyberspace",
+      "icon": "./assets/icons/android.png",
+      "package": "com.evanbacon.cyberspace",
+      "versionCode": 1
+    }
+  }
+}
